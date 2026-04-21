@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Data & Large Files
+kvasir-dataset-v2/
+*.pth
+*.pt
+*.cbm
+*.json
+lightgbm_model.txt
+xgboost_model.json
+catboost_model_params.json
+lightgbm_model_params.json
+xgboost_model_params.json
+
+# Feature files
+extracted_features.npz
+
+# Model weights (optional - uncomment if you want to store them)
+# !*_best_*.pth
+# !mobilevit_*.pth
+
+# Logs
+*.log
+runs/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
